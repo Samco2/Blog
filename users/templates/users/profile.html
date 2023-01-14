@@ -9,6 +9,7 @@
         <p class="text-secondary">{{ user.email }}</p>
       </div>
     </div>
+    <!--The enctype class will make the form to save images and work probalily--> 
     <form method="POST" enctype="multipart/form-data">
       {% csrf_token %}
       <fieldset class ="form-group">
